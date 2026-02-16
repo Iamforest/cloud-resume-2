@@ -4,6 +4,7 @@ from azure.cosmos import CosmosClient
 import os
 
 # these are the environment variables that will be set in azure via the az CLI
+# Dont worry about the errors here the keys dont exist yet
 URL = os.environ.get('COSMOS_DB_URL')
 KEY = os.environ.get('COSMOS_DB_KEY')
 DATABASE = os.environ.get('COSMOS_DB_DATABASE')
